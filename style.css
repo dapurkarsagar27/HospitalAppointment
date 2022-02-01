@@ -1,0 +1,112 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; 
+	font-family: 'Raleway', sans-serif;
+}
+
+.mainheader{
+	width:100%;
+	height:100vh;
+	background-image:linear-gradient(#130f40,#22a6b3);
+	background-size:100% 100%;
+}
+
+.topheader{
+	width:100%;
+	height:120px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.logo img{
+	width: 350px;
+	height: 120px;
+	padding-left:10px;
+	padding-top:10px;
+	animation-iteration-count: infinite;
+}
+
+nav {
+	width: 550px;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a{
+	text-decoration:none;
+	font-size: 19px;
+	text-transform: uppercase;
+	color:white;
+}
+
+button{
+	padding:13px 35px;
+	font-size: 16px;
+	border-radius:10px;
+	border:none;
+	text-transform: uppercase;
+	margin-right:20px;
+	background-image: linear-gradient(to left,#130f40,#22a6b3);
+	cursor: pointer;
+	outline: none;
+	color:white;
+}
+
+button:hover{
+	background-image: linear-gradient(to left,#22a6b3,#130f40);
+	background-color: #95afc0;
+}
+
+main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main .leftsec img{
+	width:600px;
+	height:533px;
+}
+
+main .rightsec{
+	padding-left:150px;
+	padding-bottom: 50px;
+	color:white;
+	text-align:left;
+}
+
+main .rightsec h1{
+	font-size: 45px;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	font-weight: 200;
+	color:#130f40;
+	animation-name: flipInX;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	
+}
+
+main .rightsec p{
+	font-size: 20px;
+	letter-spacing: 2.5px;
+}
+
+main .rightsec h5{
+	font-size: 15px;
+	word-spacing: 2px;
+	padding-bottom: 30px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+main .rightsec button{
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
